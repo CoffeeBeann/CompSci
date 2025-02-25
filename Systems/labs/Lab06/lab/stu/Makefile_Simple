@@ -1,0 +1,7 @@
+all: compileme
+
+helloworld: compileme.c
+  gcc compileme.c -o compileme
+
+clean:
+  rm -f compileme

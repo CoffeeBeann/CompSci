@@ -1,0 +1,52 @@
+WC - Word Count
+
+NAME
+    WC - return a int * with the number of lines, words, and characters given a FILE * object
+
+SYNOPSIS
+    wc [-c -l -w] [FILE]... [+]
+
+    -l 
+        return number of lines as an int
+    -c
+        return character count as a long int
+    -w
+        return number of words as an int
+
+    *** The above three options may be given in any order***
+
+    -+
+        read input from STDIN (ie. cat B.txt | ./wc A.txt + C.txt)
+
+DESCRIPTION
+    ./wc will return a string containing the FILE * object given, followed by the 
+    number of lines, words, and characters found. Mutliple file objects may be given,
+    and ./wc will provide a total count of lines, words, and characters of all 
+    the files at the bottom of the report. For example...
+
+    ./wc A.txt B.txt C.txt
+    A.txt 10, 50, 100
+    B.txt 10, 50, 100
+    C.txt 10, 50, 100
+    total 30, 150, 300
+
+    Additionally, the (+) option will also be listed among the total, and will
+    be labeled as '-stdin-'. For example...
+
+    cat A.txt | ./wc B.txt +
+    B.txt 10 50 150
+    -stdin- 10 50 150
+    total 20, 100, 300
+
+    EXIT STATUS
+        0   if OK.
+
+        1   if something went wrong. (ie. bad file name or invalid option)
+
+AUTHOR
+    Written by MIDN 3/C Ian Coffey 
+
+REPORTING BUGS
+    Please report all bugs to iwillnotrespondtothis@gmail.com 
+
+February 2024

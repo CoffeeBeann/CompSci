@@ -1,0 +1,3 @@
+$ python3 ex1b.py 
+golden ratio r = 1.618033988749895 is a root of x^2 - x - 1.
+check: r^2 - r - 1 = 0.0

@@ -1,0 +1,33 @@
+en
+conf t
+
+# subnet address A
+interface FastEthernet 1/0 
+# 1/0 is the interface going from the router A to the switch
+ip address 214.97.255.1 255.255.255.0 
+# set IP address of router and subnet mask
+ip helper-address #####DHCP Address#####
+no shut
+exit
+@ subnet address D
+interface FastEthernet 0/0 # 0/0 is the interface going to router B
+ip address 214.97.126.1 255.255.255.252
+no shut
+exit
+# submit address F
+interface FastEthernet 0/1
+ip address 214.97.126.9 255.255.255.252
+no shut
+exit
+
+# configure base router for A
+router rip
+version 2
+network 214.97.255.0 # A
+network 214.97.126.0 # D
+network 214.97.126.8 # F
+no-auto-summary
+exit
+
+
+

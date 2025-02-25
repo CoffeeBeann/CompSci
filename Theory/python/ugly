@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>Sections - General Query : </title>
+<script>
+<!-- Hide from old browsers
+var FormType = "List";
+var P_ID3 = new Array();
+var P_1 = new Array();
+var SCHE_CHK_VALUE = new Array();
+//-->
+</SCRIPT>
+</head>
+<body BGCOLOR="FFFFFF" LINK="000080" VLINK="000080">
+<font color=000080><h2></h2><h2 ALIGN="LEFT"></h2></font>
+<p>
+
+<font COLOR="#000080">
+<h2>Ac Yr Ending : 2004&nbsp;&nbsp;   Sem: FALL</h2>
+</font>
+
+<p>
+<p>
+<table  BORDER>
+<tr class = cgrlheaderrow><th ALIGN="LEFT"><font SIZE="2" FACE="Arial">Course</th><th ALIGN="LEFT"><font SIZE="2" FACE="Arial">Section</th><th ALIGN="LEFT"><font SIZE="2" FACE="Arial">Instructor</th><th ALIGN="LEFT"><font SIZE="2" FACE="Arial">Meeting Time</th><th ALIGN="RIGHT"><font SIZE="2" FACE="Arial">Max Enroll</th><th ALIGN="RIGHT"><font SIZE="2" FACE="Arial">Actual Enroll</th><th ALIGN="LEFT"><font SIZE="2" FACE="Arial">Building/Room</th></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38378&Z_CHK=1367">SI495</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38378&amp;P_1=38378&amp;Z_CHK=23580">9991</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">LENNERTON</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">BY ARRANGEMENT</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">2</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">2</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">&nbsp</td></tr>
+
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38499&Z_CHK=2139">SI495</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38499&amp;P_1=38499&amp;Z_CHK=25380">9992</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">STAHL</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">BY ARRANGEMENT</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">1</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">1</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">TBD</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38206&Z_CHK=329">SI204</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38206&amp;P_1=38206&amp;Z_CHK=18952">2002</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">LENNERTON</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MTF2,W12</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">19</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">16</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH313,CH313</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38207&Z_CHK=585">SI204</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38207&amp;P_1=38207&amp;Z_CHK=19210">3001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">LENNERTON</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MTF3,W34</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">19</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">18</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH313,CH313</td></tr>
+
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38219&Z_CHK=1099">SI472</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38219&amp;P_1=38219&amp;Z_CHK=20240">1001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">BROWN</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF1</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">19</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH105</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38194&Z_CHK=64858">SI204</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38194&amp;P_1=38194&amp;Z_CHK=22548">1001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MCKENNA</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF1,R12</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">19</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">18</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH214,CH101</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38220&Z_CHK=64332">SI472</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38220&amp;P_1=38220&amp;Z_CHK=18432">2001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">BROWN</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF2</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">20</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH105</td></tr>
+
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38195&Z_CHK=65114">SI204</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38195&amp;P_1=38195&amp;Z_CHK=22806">2001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">KENDALL</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF2,R12</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">19</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">13</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH214,CH313</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38394&Z_CHK=347">SI488</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38394&amp;P_1=38394&amp;Z_CHK=23576">2001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">DOWNEY</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF2,R12</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">12</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">12</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH218,CH218</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38221&Z_CHK=64588">SI472</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38221&amp;P_1=38221&amp;Z_CHK=18690">3001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">BROWN</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF3</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH105</td></tr>
+
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38209&Z_CHK=1097">SI321</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38209&amp;P_1=38209&amp;Z_CHK=19726">3001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CRABBE</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF3,T34</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">23</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">20</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH214,CH102</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38208&Z_CHK=841">SI311</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38208&amp;P_1=38208&amp;Z_CHK=19468">4001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">BOOK</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF4</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">20</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">7</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH218</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38216&Z_CHK=331">SI454</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38216&amp;P_1=38216&amp;Z_CHK=19466">4001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MCMAHON</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF4</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">22</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">22</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH105</td></tr>
+
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38196&Z_CHK=65370">SI204</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38196&amp;P_1=38196&amp;Z_CHK=23064">4001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">KENDALL</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF4,R34</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">18</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">15</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH214,CH101</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38200&Z_CHK=64328">SI204</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38200&amp;P_1=38200&amp;Z_CHK=17404">4002</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MCKENNA</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF4,R34</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">18</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">15</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH206,CH313</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38204&Z_CHK=65352">SI204</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38204&amp;P_1=38204&amp;Z_CHK=18436">4003</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">STAHL</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF4,R34</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">18</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">15</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH104,CH218</td></tr>
+
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38217&Z_CHK=587">SI454</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38217&amp;P_1=38217&amp;Z_CHK=19724">5001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MCMAHON</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF5</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">20</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">19</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH105</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38210&Z_CHK=64330">SI321</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38210&amp;P_1=38210&amp;Z_CHK=17918">5001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CRABBE</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF5,T56</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">24</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">17</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH214,CH102</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38218&Z_CHK=843">SI454</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38218&amp;P_1=38218&amp;Z_CHK=19982">6001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MCMAHON</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF6</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">20</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">15</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH105</td></tr>
+
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38199&Z_CHK=603">SI204</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38199&amp;P_1=38199&amp;Z_CHK=23838">6001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">STAHL</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF6,R56</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">19</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">19</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH214,CH101</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38203&Z_CHK=65096">SI204</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38203&amp;P_1=38203&amp;Z_CHK=18178">6002</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">BOOK</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">MWF6,R56</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">18</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">16</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH206,CH313</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38231&Z_CHK=64590">SI283</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38231&amp;P_1=38231&amp;Z_CHK=19204">1001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">KORNBLUM</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">T1,R12</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">22</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">RI080,RI080</td></tr>
+
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38232&Z_CHK=64846">SI283</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38232&amp;P_1=38232&amp;Z_CHK=19462">3001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">HENDRICKS</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">T3,R34</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">RI080,RI080</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38239&Z_CHK=1103">SI283</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38239&amp;P_1=38239&amp;Z_CHK=21268">3003</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">SCHULZE</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">T3,W34</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">15</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH104,RI080</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38233&Z_CHK=65102">SI283</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38233&amp;P_1=38233&amp;Z_CHK=19720">5001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">HENDRICKS</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">T5,R56</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">RI080,RI080</td></tr>
+
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38212&Z_CHK=64842">SI411</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38212&amp;P_1=38212&amp;Z_CHK=18434">10001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">YOUNG</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">TR10</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">23</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">14</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH214</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38215&Z_CHK=75">SI434</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38215&amp;P_1=38215&amp;Z_CHK=19208">10001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">NEEDHAM</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">TR10</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">20</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH105</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38211&Z_CHK=64586">SI411</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38211&amp;P_1=38211&amp;Z_CHK=18176">8001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">YOUNG</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">TR8</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">23</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">23</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH214</td></tr>
+
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38213&Z_CHK=65098">SI434</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38213&amp;P_1=38213&amp;Z_CHK=18692">8001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">NEEDHAM</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">TR8</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">20</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH105</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38214&Z_CHK=65354">SI434</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38214&amp;P_1=38214&amp;Z_CHK=18950">9001</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">NEEDHAM</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">TR9</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">20</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH105</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38234&Z_CHK=65358">SI283</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38234&amp;P_1=38234&amp;Z_CHK=19978">1002</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">JAMES</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">W1,F12</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">18</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">RI080,RI080</td></tr>
+
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38235&Z_CHK=79">SI283</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38235&amp;P_1=38235&amp;Z_CHK=20236">3002</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">JAMES</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">W3,F34</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">16</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH104,RI080</td></tr>
+<tr VALIGN="TOP" class = cgrldatarow><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$secof.QueryViewByKey?P_ID3=38237&Z_CHK=591">SI283</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial"><a HREF="drgwq030$sche.startup?P_SECOF_ID=38237&amp;P_1=38237&amp;Z_CHK=20752">5002</a></td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">JAMES</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">W5,F56</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">21</td><td ALIGN="RIGHT"><font SIZE="2" FACE="Arial">20</td><td ALIGN="LEFT"><font SIZE="2" FACE="Arial">CH104,RI080</td></tr>
+</table>
+
+<p>
+Records 1 to 33 of 33
+<p>
+<form ACTION="drgwq030$secof.querylist" METHOD="POST" NAME="drgwq030$secof$LForm">
+<input TYPE="hidden" NAME="P_COURSE_NBR" VALUE="SI%">
+<input TYPE="hidden" NAME="P_SECT" VALUE="">
+<input TYPE="hidden" NAME="P_INST_LAST_NAME" VALUE="">
+<input TYPE="hidden" NAME="P_COOF_SEBLDA_AC_YR" VALUE="2004">
+<input TYPE="hidden" NAME="P_COOF_SEBLDA_SEM" VALUE="FALL">
+<input TYPE="hidden" NAME="P_SETI_MTG_TIME" VALUE="">
+<input TYPE="hidden" NAME="P_BLD_ROOM" VALUE="">
+<input TYPE="hidden" NAME="Z_START" VALUE="1">
+<script><!--
+document.write ('<input type=hidden name="Z_ACTION">')
+//-->
+</SCRIPT>
+<script><!--
+document.write ('<input type=submit value="ReQuery" onClick="this.form.Z_ACTION.value=\'REQUERY\'">')
+//-->
+</SCRIPT>
+<noscript>
+
+<input TYPE="submit" NAME="Z_ACTION" VALUE="ReQuery">
+</noscript>
+<script><!--
+document.write ('<input type=submit value="Return" onClick="this.form.Z_ACTION.value=\'QUERY\'">')
+//-->
+</SCRIPT>
+<noscript>
+<input TYPE="submit" NAME="Z_ACTION" VALUE="Return">
+</noscript>
+<input TYPE="hidden" NAME="Z_CHK" VALUE="0">
+</form>
+<p>
+<img SRC="/ows-img/line.gif">
+<br>
+<a HREF="/ITSD/mids/drgwq030$.showabout" ><img src="/mids-img/help.gif" alt="Module Help" border=0 naturalsizeflag="0" height=20 width=130></a>
+<a HREF="/ITSD/mids/drgwq030$.startup" TARGET="_top" ><img SRC="/mids-img/return.gif" ALT="Return back to the first page" BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="http://midway.usna.edu:8010/" TARGET="_top" ><img SRC="/mids-img/midshome.gif" ALT="Back to the Midshipmen Information System"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=GA" TARGET="_top" ><img SRC="/mids-img/GA.gif" ALT="Return to General Academics"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=AC" TARGET="_top" ><img SRC="/mids-img/AC.gif" ALT="Return to Academic Center"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=AD" TARGET="_top" ><img SRC="/mids-img/AD.gif" ALT="Return to Associate Dean for Academic Affairs"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=CS" TARGET="_top" ><img SRC="/mids-img/CS.gif" ALT="Return to Commandant's Staff"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=DC" TARGET="_top" ><img SRC="/mids-img/DC.gif" ALT="Return to Academic Department Chairs"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=FA" TARGET="_top" ><img SRC="/mids-img/FA.gif" ALT="Return to Faculty"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=LO" TARGET="_top" ><img SRC="/mids-img/LO.gif" ALT="Return to Logistics"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=MD" TARGET="_top" ><img SRC="/mids-img/MD.gif" ALT="Return to Midshipmen"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=MI" TARGET="_top" ><img SRC="/mids-img/MI.gif" ALT="Return to Midshipmen Information Systems Officer (MISO)"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=OS" TARGET="_top" ><img SRC="/mids-img/OS.gif" ALT="Return to OPS Scheduling Office"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=PD" TARGET="_top" ><img SRC="/mids-img/PD.gif" ALT="Return to Professional Development"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=PE" TARGET="_top" ><img SRC="/mids-img/PE.gif" ALT="Return to Physical Education"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+<a HREF="/ITSD/mids/sc_pkg.display_user_urls?p_level1_area_in=RE" TARGET="_top" ><img SRC="/mids-img/RE.gif" ALT="Return to Registrar"  BORDER=0 naturalsizeflag="0" HEIGHT=20 WIDTH=130></a>
+
+</body>
+</html>
+<script id="f5_cspm">(function(){var f5_cspm={f5_p:'MHGNMDJCIJMMJCBDPEDBMDLCPPFAPLHJJPLOHKEGIMOFPMLOLHEHCAABIOFGOCIOHBGBFHBKAAHOPJBCKMDAPMIJAAKIFACBODCDBIDPCGCBCNACIEKFINKJIMAHPIDE',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr2054311753aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/;'+'';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;'+';';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

@@ -1,0 +1,17 @@
+Ian Coffey (m261194)
+Sarah Geibig (m264083)
+
+Our new object oriented programming allows any user to add new types of 'Things'
+without having to understand the implementation of plotter. You simply just Extend
+the parent class "Thing" to fit the needs of the new type you want to make.
+For ThingC, this was accomplished by extending ThingB and simply modifying
+when and how the direction is changed. There is no need to understand how
+plotter works. 
+
+Given that Thing, ThingB, and ThingC are incredibly alike in terms of properties
+and variables, functions are similar but slightly different. So many of the functions
+are called the same name throughout. For example, there is a different maybeTurn
+function for Thing, ThingB, and ThingC. But Polymorphism allows us to 
+call each function given different arguements, and we do not need to worry
+about the wrong function being called. At the end of the day, ThingC and ThingB
+are both 'Thing' objects. A thing is a thing is a thing...

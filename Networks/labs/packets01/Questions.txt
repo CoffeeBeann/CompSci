@@ -1,0 +1,62 @@
+﻿Q1) The pro field refers to the protocol field and indicates the next level protocol used in the payload. It is defined by an 8-bit-value. In ICMP, the pro field is 0x01 which indicates that the payload contains an ICMP messages
+
+Q2) The type and code field describe in more detail the contents of the ICMP message. The type field is an 8-bit value that indicates the general category of a message. In this packet, the type field is 0x00 which tells us that this packet is a simple “echo reply”. Furthermore, the code field is also an 8-bit-value that tells us the condition of the general category. In this case, the code was 0x00 meaning that the echo reply was received with no further complications
+
+Q3) Looking at the response from the pinged host, we can see that the type value is 0x08, which indicates “echo request”. This makes sense because we sent a type 0x00 or an “echo” to the host, so the request makes sense that we sent one back. The code field is 0x00 indicating no further detail to be given from this ICMP packet
+
+Q4) the ICMP ID values for each of the Echo message request were the same giving 0x000f.
+
+Q5) The ICMP ID values for the echo response messages were the same, all
+saying 0x0004
+
+Q6) The sequence numbers for the echo requests sent were 12,13,14, and
+15. This is because the ping command sends 4 ICMP messages, so the
+sequence values have a range of 4. In this case, between 12 and 15
+including 12.
+
+Q7) The ICMP values for the echo responses were the same as the echo
+request, all between 12 and 15, incrementing as each packet was replied
+to.
+
+Q8) Given all the information so far, the ICMP messages are simply
+sending an echo request to a host, and waiting for an echo response
+before sending another ICMP packet. The ping command itself shows the
+reponse from the pinged host as well as the round trip time each packet
+needed to go to the desired host and back to the user. This demonstrates
+that ICMP is effective at diagnosing networks, as it can swiftly send
+packets to any host in a network and track its response.
+
+Q9) The router is the device that crafts this error ICMP packet. The
+type code in this ICMP packet is 0x03 indicating that the host is
+unreachable. This makes sense because is this particular network setup,
+8.8.8.8 is not a valid address for a machine in the network, so it does
+not exist, and cannot be pinged. This error message is then relayed to
+the rest of the machines in the network (ie the switch and the laptop
+that sent the ping)
+
+Q10) The ICMP response has two IP headers and two ICMP headers because
+the packet must be relayed back to the orignal sender, which demands one
+Ip and ICMP header. Additionally, the packet that experienced the error
+itself must also be sent back. So the packet that failed has its own IP
+header and ICMP header, but sending it back with those errors requires
+another IP and ICMP header. this is crucial because diagnosis of
+networks would be far more difficult if the original IP and ICMP headers
+were modified in order to send them back to the host that sent the
+orignal ping.
+
+Q11) I never received and error message or ICMP reply. This is because
+the destination seemed to exist to the router due to the fact that the
+server we set up had the same prefix of 12.12.12.x As a result, the
+router relayed the packet to the switch, and the switch to the server.
+However. when the packet arrived to the server, there was no host that
+had that IP address, so the packet just sat there and timed out. So
+there was no reply sent from the server.
+
+Q12) The first red ICMP packet from the router has type 0x08 code and a
+code field of 0x00. The 0x08 (in hex) is simply just 8 in decimal
+notation. This indicates that the host is unreachable. While this is
+unexpected at first, the machine we are trying to reach is not in our
+subnet, so the IP address we pinged is not immediately recognized by our
+local router, as it does not refer to any host in the subnet. This is
+further backed up by the fact that the second IP header has the same
+type code of 0x08 indicating that the host is unreachable.

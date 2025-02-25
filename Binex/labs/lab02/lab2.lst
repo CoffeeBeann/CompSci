@@ -1,0 +1,58 @@
+     1                                  ; Filename: copycat.asm
+     2                                  ; Author: MIDN 2/C Ian Coffey (m261194)
+     3                                  ; Copy from stdin
+     4                                  
+     5                                  ; Compilation Instructions...
+     6                                  ; nasm -felf64 copycat.asm -o copycat.o
+     7                                  ; ld copycat.o -o copycat
+     8                                  ; ./copycat < something.txt
+     9                                  
+    10                                  bits 64 
+    11                                  
+    12                                  section .text
+    13                                      global _start
+    14                                  
+    15                                  _start:
+    16 00000000 4831DB                      xor rbx, rbx  ; zero out rbx to prevent null bytes
+    17                                                    ; rbx will be used to cmp to rax
+    18 00000003 48FFC3                      inc rbx       ; rbx = 1
+    19 00000006 4831C9                      xor rcx, rcx  ; zero out rcx to prevent null bytes 
+    20                                                    ; rcx will be used to allocate memory
+    21 00000009 48FFC1                      inc rcx       ; rcx = 1
+    22 0000000C 4831D2                      xor rdx, rdx  ; zero out rdx to prevent null bytes
+    23                                                    ; rdx is used as read size in syscall
+    24 0000000F 48FFC2                      inc rdx       ; rdx = 1
+    25                                      
+    26                                  ; Loop & write loop until rax = 0 (EOF thrown)
+    27                                  _loop:
+    28                                      ; Allocate 1 byte of memory on stack
+    29 00000012 4829CC                      sub rsp, rcx
+    30                                  
+    31                                      ; Setup syscall
+    32 00000015 4831FF                      xor rdi, rdi  ; stdin = 0
+    33 00000018 4889E6                      mov rsi, rsp  ; location of buffer
+    34 0000001B 4831C0                      xor rax, rax  ; 0 = read(stdin, buffer, rdx=1)
+    35 0000001E 0F05                        syscall       ; call read()
+    36                                      
+    37                                      ; Check if 0 (EOF) is in rax
+    38 00000020 4839D8                      cmp rax, rbx
+    39 00000023 750E                        jne exit
+    40 00000025 480F1FC0                    nop rax       ; NOP to scew null bytes
+    41                                  
+    42                                      ; Setup syscall for write
+    43 00000029 48FFC7                      inc rdi       ; stdout = 1 
+    44 0000002C 0F05                        syscall       ; 1 = write(stdout, buffer, rdx=1)
+    45                                      
+    46                                      ; Deallocate 1 byte from the stack
+    47 0000002E 4801CC                      add rsp, rcx
+    48 00000031 EBDF                        jmp _loop
+    49                                  
+    50                                  exit:
+    51 00000033 4801E6                      add rsi, rsp  ; Reset stack and return
+    52 00000036 4831C0                      xor rax, rax  ; rax = 0
+    53 00000039 48FFC0                      inc rax       ; rax = 1
+    54 0000003C 48FFC0                      inc rax       ; rax = 2
+    55 0000003F 48C1E005                    shl rax, 5    ; rax = 64
+    56 00000043 4883E804                    sub rax, 4    ; rax = 60
+    57 00000047 4831FF                      xor rdi, rdi  ; rdi = 0
+    58 0000004A 0F05                        syscall       ; exit(0)

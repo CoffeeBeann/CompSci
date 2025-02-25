@@ -1,0 +1,109 @@
+Name: Ian Coffey
+Alpha: 261194
+SI459 - Analysis Practicum - 13 Feb 2025
+
+Answer the following questions to the best of your ability. If you do not understand a question, raise your hand and ask for clarification.
+
+(20) Overall -
+Is the binary you're analyzing stripped? What's an easy way to find that out?
+
+An easy way to see that this binary is stripped is by performing an
+objdump on the file. Specifically "objdump -d -Mintel bitbomb"
+This will dump the assembly to the screen, and we know the file is
+stripped because there are no labels in the file indicating locations
+and functions (i.e. main)
+
+What is the address of main()? How did you find it?
+
+The start of main is at 0x401276. I did this by using the "info file" command to find the .text
+section of the assembly, which then leads to __libc_start_call_main, which calls main by doing a
+'call rax' after some setup, and once this was done, the address after the 'call rax' is where main is
+at. I double checked this address with ghidra, and a function that suspiciously looks a lot like main
+just so happens to be at this exact same memory address.
+
+What is the address of the program's entry point? How did you find it? Why is it different from main()?
+
+The address of the programs extry point is 0x401190. I found this by doing an 'info file" command
+in gdb, which tells me the locations of sections of assembly such as .plt and more importantly, .text
+which is where our executable assembly is. Given the location of the start of our assembly, I set a breakpoint
+and continued until i got to the breakpoint, which is where .text starts, which is where our entry is.
+Additionally, in Ghidra, this location is named "entry". 
+
+Without running the program, how many levels are present in the program? How did you decide on that? (be specific - if you used a specific bash command to come to that conclusion, provide it here)
+
+Before running the program, I can see that there are 5 levels in total for this program. When loading this binary file in 
+ghidra, I saw that main contained 5 function calls that each contained strings along the lines of "welcome to level x" 
+where x was the number level each function associated with.
+
+(10) Level 1 -
+What is answer?
+
+Go Navy!
+
+How does this level determine your answer was correct? If there are any string comparisons made, what is the address of the string your input is compared to?
+
+This level determines if you input is correct by a string compare with the string stored at 00404120, which is "Go Navy!"
+
+
+(10) Level 2 -
+What is the answer?
+
+*
+
+How does Ghidra's decompilation of this function differ from the actual machine instructions being executed? 
+
+Ghidra's decompilation shows that the level 2 function returns a boolean value of true or false as to whether to users
+input was or was not *. However, the actual assembly does not return a 0 or 1 value based on this condition, but 
+rather just jumps back to main if the users input is *, and jumps to an exit function if it does not, there is no
+returning of a boolean value in function 2.
+
+Identify and give the address of at least one machine instruction that calculates the value that your answer is compared to.
+
+the address rbp-0x10 in this binary stores the string '*\n" which is what our input is compared to using a string compare
+
+(20) Level 3 - 
+What is the answer? 
+
+excalibur
+
+How is your answer being compared to the correct value? 
+
+My answer is put inside of a loop which checks to see if each ascii character matches that of 'excalibur'
+
+How is that string being stored within the program? Can you find it using strings?
+
+the string is stored at address 0x4040e8, and using the strings command can reveal all the
+strings the program uses, including 'Go Navy!", "Beat Army!", and other strings. However, 
+using strings does not reveal excalibur, becuase we analyze is character by character,
+so it is not a string.
+
+(20) Level 4 -
+What is the answer?
+
+'\n'
+
+How many functions are called within Level 4? What are their addresses? 
+
+There is an additional function being called in level 4. This function is stored at 0x00401739.
+but even that function calls another function which is stored at 0x004016af and another one at 0x004017b3
+
+Pick one of the functions being called within the level 4 function. What is its address, and what does the function do? Does it affect the input you need to provide at all?
+
+The first function i refered to stored at 0x00401739 consist of a while loop that takes the length
+of the string "Douglass adams" and uses a for loop and a local variable 'i' to send to another function
+which uses those two values, adds them together, and takes the char representation of it, and
+multiplies it with a random value, then spits it out to the screen before making me wait a second. 
+
+(20) Level 5 - 
+What is the answer? (note - there are multiple correct answers)
+
+Beat Army!
+
+What is the function doing (in plain English) to verify your answer is correct? 
+
+To verify that the asnwer is correct, this function takes your input, takes its length,
+multiplies it by 2, and checks if that value is less than or equal to a bank of answers
+
+
+
+

@@ -1,0 +1,9 @@
+test
+please work with new lines
+lets see if the buffer can handle itself
+heres some more stuff
+:)
+<('')
+  []
+  []
+  /\

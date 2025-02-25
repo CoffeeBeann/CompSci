@@ -1,0 +1,465 @@
+zip	city	state_id	population
+20601	Waldorf	MD	26236
+20602	Waldorf	MD	26835
+20603	Waldorf	MD	32726
+20606	Abell	MD	314
+20607	Accokeek	MD	10755
+20608	Aquasco	MD	739
+20609	Avenue	MD	1211
+20611	Bel Alton	MD	1354
+20612	Benedict	MD	181
+20613	Brandywine	MD	13240
+20615	Broomes Island	MD	513
+20616	Bryans Road	MD	6728
+20617	Bryantown	MD	715
+20618	Bushwood	MD	402
+20619	California	MD	13845
+20620	Callaway	MD	1688
+20621	Chaptico	MD	1277
+20622	Charlotte Hall	MD	6692
+20623	Cheltenham	MD	2619
+20624	Clements	MD	1242
+20625	Cobb Island	MD	929
+20626	Coltons Point	MD	278
+20628	Dameron	MD	452
+20629	Dowell	MD	525
+20630	Drayden	MD	192
+20632	Faulkner	MD	314
+20634	Great Mills	MD	6961
+20636	Hollywood	MD	11295
+20637	Hughesville	MD	5288
+20639	Huntingtown	MD	15216
+20640	Indian Head	MD	11113
+20645	Issue	MD	653
+20646	La Plata	MD	22583
+20650	Leonardtown	MD	14069
+20653	Lexington Park	MD	26112
+20657	Lusby	MD	19711
+20658	Marbury	MD	858
+20659	Mechanicsville	MD	23030
+20660	Morganza	MD	0
+20662	Nanjemoy	MD	2333
+20664	Newburg	MD	3285
+20667	Park Hall	MD	868
+20670	Patuxent River	MD	1620
+20674	Piney Point	MD	1082
+20675	Pomfret	MD	1662
+20676	Port Republic	MD	3631
+20677	Port Tobacco	MD	2215
+20678	Prince Frederick	MD	12418
+20680	Ridge	MD	649
+20684	Saint Inigoes	MD	784
+20685	Saint Leonard	MD	6732
+20686	Saint Marys City	MD	1639
+20687	Scotland	MD	429
+20688	Solomons	MD	1945
+20689	Sunderland	MD	2386
+20690	Tall Timbers	MD	950
+20692	Valley Lee	MD	684
+20693	Welcome	MD	1171
+20695	White Plains	MD	8400
+20701	Annapolis Junction	MD	760
+20705	Beltsville	MD	28348
+20706	Lanham	MD	45329
+20707	Laurel	MD	32184
+20708	Laurel	MD	26842
+20710	Bladensburg	MD	9483
+20711	Lothian	MD	7400
+20712	Mount Rainier	MD	9649
+20714	North Beach	MD	5331
+20715	Bowie	MD	27360
+20716	Bowie	MD	22223
+20720	Bowie	MD	23618
+20721	Bowie	MD	30121
+20722	Brentwood	MD	5604
+20723	Laurel	MD	36082
+20724	Laurel	MD	17681
+20732	Chesapeake Beach	MD	10295
+20733	Churchton	MD	2645
+20735	Clinton	MD	37009
+20736	Owings	MD	8715
+20737	Riverdale	MD	22666
+20740	College Park	MD	31723
+20742	College Park	MD	6511
+20743	Capitol Heights	MD	38747
+20744	Fort Washington	MD	54572
+20745	Oxon Hill	MD	27503
+20746	Suitland	MD	26396
+20747	District Heights	MD	41128
+20748	Temple Hills	MD	38720
+20751	Deale	MD	1972
+20754	Dunkirk	MD	6950
+20755	Fort George G Meade	MD	11340
+20758	Friendship	MD	486
+20759	Fulton	MD	4721
+20762	Andrews Air Force Base	MD	3316
+20763	Savage	MD	1955
+20764	Shady Side	MD	3482
+20765	Galesville	MD	530
+20769	Glenn Dale	MD	6172
+20770	Greenbelt	MD	24602
+20772	Upper Marlboro	MD	46471
+20774	Upper Marlboro	MD	49907
+20776	Harwood	MD	2940
+20777	Highland	MD	3444
+20778	West River	MD	2460
+20779	Tracys Landing	MD	956
+20781	Hyattsville	MD	11460
+20782	Hyattsville	MD	32527
+20783	Hyattsville	MD	45550
+20784	Hyattsville	MD	30381
+20785	Hyattsville	MD	39237
+20794	Jessup	MD	16956
+20812	Glen Echo	MD	323
+20814	Bethesda	MD	29632
+20815	Chevy Chase	MD	30908
+20816	Bethesda	MD	16661
+20817	Bethesda	MD	38131
+20818	Cabin John	MD	2072
+20832	Olney	MD	25427
+20833	Brookeville	MD	7746
+20837	Poolesville	MD	6129
+20838	Barnesville	MD	377
+20839	Beallsville	MD	139
+20841	Boyds	MD	11692
+20842	Dickerson	MD	1467
+20850	Rockville	MD	53522
+20851	Rockville	MD	14519
+20852	Rockville	MD	47338
+20853	Rockville	MD	31510
+20854	Potomac	MD	49196
+20855	Derwood	MD	15955
+20860	Sandy Spring	MD	2890
+20861	Ashton	MD	2015
+20862	Brinklow	MD	359
+20866	Burtonsville	MD	16974
+20868	Spencerville	MD	539
+20871	Clarksburg	MD	18961
+20872	Damascus	MD	12790
+20874	Germantown	MD	60258
+20876	Germantown	MD	31703
+20877	Gaithersburg	MD	37948
+20878	Gaithersburg	MD	63576
+20879	Gaithersburg	MD	26343
+20880	Washington Grove	MD	530
+20882	Gaithersburg	MD	14441
+20886	Montgomery Village	MD	34887
+20895	Kensington	MD	18930
+20896	Garrett Park	MD	792
+20899	Gaithersburg	MD	284
+20901	Silver Spring	MD	36802
+20902	Silver Spring	MD	52752
+20903	Silver Spring	MD	26951
+20904	Silver Spring	MD	55856
+20905	Silver Spring	MD	18590
+20906	Silver Spring	MD	70441
+20910	Silver Spring	MD	43729
+20912	Takoma Park	MD	25118
+21001	Aberdeen	MD	24959
+21005	Aberdeen Proving Ground	MD	2724
+21009	Abingdon	MD	31683
+21010	Gunpowder	MD	329
+21012	Arnold	MD	22746
+21013	Baldwin	MD	5157
+21014	Bel Air	MD	35668
+21015	Bel Air	MD	28975
+21017	Belcamp	MD	6034
+21028	Churchville	MD	2609
+21029	Clarksville	MD	11523
+21030	Cockeysville	MD	24152
+21031	Hunt Valley	MD	26
+21032	Crownsville	MD	7787
+21034	Darlington	MD	3178
+21035	Davidsonville	MD	8315
+21036	Dayton	MD	2243
+21037	Edgewater	MD	21134
+21040	Edgewood	MD	24717
+21042	Ellicott City	MD	42157
+21043	Ellicott City	MD	46747
+21044	Columbia	MD	45741
+21045	Columbia	MD	40265
+21046	Columbia	MD	15597
+21047	Fallston	MD	12629
+21048	Finksburg	MD	9719
+21050	Forest Hill	MD	17846
+21051	Fork	MD	231
+21052	Fort Howard	MD	179
+21053	Freeland	MD	3134
+21054	Gambrills	MD	11697
+21056	Gibson Island	MD	333
+21057	Glen Arm	MD	4109
+21060	Glen Burnie	MD	36049
+21061	Glen Burnie	MD	55020
+21071	Glyndon	MD	454
+21074	Hampstead	MD	14933
+21075	Elkridge	MD	34939
+21076	Hanover	MD	17947
+21077	Harmans	MD	235
+21078	Havre De Grace	MD	18957
+21082	Hydes	MD	608
+21084	Jarrettsville	MD	7670
+21085	Joppa	MD	16318
+21087	Kingsville	MD	5437
+21090	Linthicum Heights	MD	9715
+21093	Lutherville Timonium	MD	38245
+21102	Manchester	MD	12043
+21104	Marriottsville	MD	6029
+21105	Maryland Line	MD	0
+21108	Millersville	MD	19136
+21111	Monkton	MD	5343
+21113	Odenton	MD	35210
+21114	Crofton	MD	26460
+21117	Owings Mills	MD	59663
+21120	Parkton	MD	6775
+21122	Pasadena	MD	59664
+21128	Perry Hall	MD	13967
+21130	Perryman	MD	104
+21131	Phoenix	MD	7587
+21132	Pylesville	MD	3162
+21133	Randallstown	MD	32714
+21136	Reisterstown	MD	34347
+21140	Riva	MD	3862
+21144	Severn	MD	35680
+21146	Severna Park	MD	27634
+21152	Sparks Glencoe	MD	5349
+21153	Stevenson	MD	348
+21154	Street	MD	6467
+21155	Upperco	MD	2363
+21156	Upper Falls	MD	371
+21157	Westminster	MD	38714
+21158	Westminster	MD	20773
+21160	Whiteford	MD	2615
+21161	White Hall	MD	5738
+21162	White Marsh	MD	4089
+21163	Woodstock	MD	6602
+21201	Baltimore	MD	17534
+21202	Baltimore	MD	21880
+21204	Towson	MD	21518
+21205	Baltimore	MD	15900
+21206	Baltimore	MD	51670
+21207	Gwynn Oak	MD	50440
+21208	Pikesville	MD	35273
+21209	Baltimore	MD	28621
+21210	Baltimore	MD	16076
+21211	Baltimore	MD	15735
+21212	Baltimore	MD	33865
+21213	Baltimore	MD	30596
+21214	Baltimore	MD	21666
+21215	Baltimore	MD	55081
+21216	Baltimore	MD	28733
+21217	Baltimore	MD	32830
+21218	Baltimore	MD	46172
+21219	Sparrows Point	MD	9454
+21220	Middle River	MD	41067
+21221	Essex	MD	41899
+21222	Dundalk	MD	56946
+21223	Baltimore	MD	21974
+21224	Baltimore	MD	48770
+21225	Brooklyn	MD	33227
+21226	Curtis Bay	MD	6699
+21227	Halethorpe	MD	33396
+21228	Catonsville	MD	49438
+21229	Baltimore	MD	45983
+21230	Baltimore	MD	33592
+21231	Baltimore	MD	15906
+21234	Parkville	MD	68678
+21236	Nottingham	MD	37803
+21237	Rosedale	MD	31105
+21239	Baltimore	MD	30143
+21240	Baltimore	MD	0
+21244	Windsor Mill	MD	36897
+21250	Baltimore	MD	2443
+21251	Baltimore	MD	1652
+21252	Towson	MD	2040
+21286	Towson	MD	19711
+21401	Annapolis	MD	38788
+21402	Annapolis	MD	6460
+21403	Annapolis	MD	31218
+21405	Annapolis	MD	398
+21409	Annapolis	MD	19304
+21502	Cumberland	MD	41735
+21520	Accident	MD	2003
+21521	Barton	MD	1183
+21523	Bloomington	MD	180
+21524	Corriganville	MD	831
+21529	Ellerslie	MD	467
+21530	Flintstone	MD	1923
+21531	Friendsville	MD	1744
+21532	Frostburg	MD	14498
+21536	Grantsville	MD	3984
+21538	Kitzmiller	MD	525
+21539	Lonaconing	MD	2664
+21540	Luke	MD	90
+21541	McHenry	MD	1536
+21542	Midland	MD	678
+21543	Midlothian	MD	229
+21545	Mount Savage	MD	1771
+21550	Oakland	MD	14327
+21555	Oldtown	MD	1501
+21557	Rawlings	MD	1592
+21561	Swanton	MD	2392
+21562	Westernport	MD	3426
+21601	Easton	MD	23338
+21607	Barclay	MD	770
+21610	Betterton	MD	412
+21612	Bozman	MD	597
+21613	Cambridge	MD	17115
+21617	Centreville	MD	10534
+21619	Chester	MD	5789
+21620	Chestertown	MD	12989
+21622	Church Creek	MD	704
+21623	Church Hill	MD	2248
+21624	Claiborne	MD	115
+21625	Cordova	MD	2401
+21626	Crapo	MD	47
+21627	Crocheron	MD	4
+21628	Crumpton	MD	324
+21629	Denton	MD	9464
+21631	East New Market	MD	2708
+21632	Federalsburg	MD	5885
+21634	Fishing Creek	MD	243
+21635	Galena	MD	1970
+21636	Goldsboro	MD	837
+21638	Grasonville	MD	5227
+21639	Greensboro	MD	5410
+21640	Henderson	MD	1467
+21641	Hillsboro	MD	87
+21643	Hurlock	MD	5956
+21644	Ingleside	MD	78
+21645	Kennedyville	MD	1345
+21647	Mcdaniel	MD	357
+21648	Madison	MD	126
+21649	Marydel	MD	2204
+21650	Massey	MD	296
+21651	Millington	MD	2683
+21652	Neavitt	MD	149
+21653	Newcomb	MD	96
+21654	Oxford	MD	1221
+21655	Preston	MD	4763
+21657	Queen Anne	MD	727
+21658	Queenstown	MD	4177
+21659	Rhodesdale	MD	1509
+21660	Ridgely	MD	4361
+21661	Rock Hall	MD	2695
+21662	Royal Oak	MD	369
+21663	Saint Michaels	MD	3715
+21664	Secretary	MD	497
+21665	Sherwood	MD	194
+21666	Stevensville	MD	13463
+21667	Still Pond	MD	255
+21668	Sudlersville	MD	1763
+21669	Taylors Island	MD	114
+21671	Tilghman	MD	808
+21672	Toddville	MD	149
+21673	Trappe	MD	3019
+21675	Wingate	MD	57
+21676	Wittman	MD	367
+21677	Woolford	MD	579
+21678	Worton	MD	1549
+21679	Wye Mills	MD	272
+21701	Frederick	MD	38390
+21702	Frederick	MD	41729
+21703	Frederick	MD	37048
+21704	Frederick	MD	16478
+21705	Frederick	MD	4
+21710	Adamstown	MD	4847
+21711	Big Pool	MD	1139
+21713	Boonsboro	MD	9979
+21716	Brunswick	MD	5453
+21717	Buckeystown	MD	126
+21718	Burkittsville	MD	167
+21719	Cascade	MD	1074
+21722	Clear Spring	MD	6389
+21723	Cooksville	MD	648
+21727	Emmitsburg	MD	6965
+21733	Fairplay	MD	988
+21734	Funkstown	MD	840
+21737	Glenelg	MD	2476
+21738	Glenwood	MD	3861
+21740	Hagerstown	MD	60922
+21742	Hagerstown	MD	33425
+21746	Hagerstown	MD	3036
+21750	Hancock	MD	3787
+21754	Ijamsville	MD	7117
+21755	Jefferson	MD	5745
+21756	Keedysville	MD	2912
+21757	Keymar	MD	2753
+21758	Knoxville	MD	4616
+21762	Libertytown	MD	131
+21766	Little Orleans	MD	660
+21767	Maugansville	MD	694
+21769	Middletown	MD	11868
+21770	Monrovia	MD	6145
+21771	Mount Airy	MD	31366
+21773	Myersville	MD	5404
+21774	New Market	MD	13618
+21776	New Windsor	MD	6137
+21777	Point Of Rocks	MD	2067
+21778	Rocky Ridge	MD	930
+21779	Rohrersville	MD	1712
+21780	Sabillasville	MD	1864
+21781	Saint James	MD	128
+21782	Sharpsburg	MD	4348
+21783	Smithsburg	MD	9637
+21784	Sykesville	MD	36484
+21787	Taneytown	MD	10194
+21788	Thurmont	MD	12241
+21790	Tuscarora	MD	104
+21791	Union Bridge	MD	5080
+21793	Walkersville	MD	10477
+21794	West Friendship	MD	2191
+21795	Williamsport	MD	9150
+21797	Woodbine	MD	8558
+21798	Woodsboro	MD	2412
+21801	Salisbury	MD	30122
+21804	Salisbury	MD	39842
+21810	Allen	MD	656
+21811	Berlin	MD	24356
+21813	Bishopville	MD	2636
+21814	Bivalve	MD	274
+21817	Crisfield	MD	4247
+21821	Deal Island	MD	834
+21822	Eden	MD	1527
+21824	Ewell	MD	181
+21826	Fruitland	MD	5317
+21829	Girdletree	MD	397
+21830	Hebron	MD	4790
+21835	Linkwood	MD	207
+21837	Mardela Springs	MD	3322
+21838	Marion Station	MD	1805
+21840	Nanticoke	MD	353
+21841	Newark	MD	1455
+21842	Ocean City	MD	10525
+21849	Parsonsburg	MD	3659
+21850	Pittsville	MD	3442
+21851	Pocomoke City	MD	7237
+21853	Princess Anne	MD	11437
+21856	Quantico	MD	957
+21861	Sharptown	MD	687
+21862	Showell	MD	86
+21863	Snow Hill	MD	4578
+21864	Stockton	MD	643
+21865	Tyaskin	MD	433
+21866	Tylerton	MD	80
+21867	Upper Fairmount	MD	23
+21869	Vienna	MD	1155
+21871	Westover	MD	2031
+21872	Whaleyville	MD	585
+21874	Willards	MD	1917
+21875	Delmar	MD	7084
+21890	Westover	MD	3272
+21901	North East	MD	17694
+21902	Perry Point	MD	262
+21903	Perryville	MD	5794
+21904	Port Deposit	MD	6484
+21911	Rising Sun	MD	11103
+21912	Warwick	MD	1520
+21913	Cecilton	MD	901
+21914	Charlestown	MD	804
+21915	Chesapeake City	MD	2739
+21917	Colora	MD	2017
+21918	Conowingo	MD	4321
+21919	Earleville	MD	2905
+21920	Elk Mills	MD	953
+21921	Elkton	MD	45225
+21930	Georgetown	MD	120
