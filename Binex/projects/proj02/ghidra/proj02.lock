@@ -1,0 +1,9 @@
+#Ghidra Lock File
+#Wed Feb 26 15:30:35 EST 2025
+<META>\ Supports\ File\ Channel\ Locking=Channel Lock
+Hostname=vm
+OS\ Architecture=amd64
+OS\ Name=Linux
+OS\ Version=6.8.0-52-generic
+Timestamp=2/26/25, 3\:30\u202FPM
+Username=vm
