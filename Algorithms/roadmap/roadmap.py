@@ -41,7 +41,7 @@ def sumSquare(call):
   ans.append(path)
   return ans
 
-# O(d + n) runtime
+# O(d) runtime
 def findMin(result, d):
   sumArray = []
   for i in range(d):
@@ -54,10 +54,3 @@ if __name__ == '__main__':
   N = [2,5,3,3]
   d = 2
   print(findPath(N, d))
-
-  # It would take 15 days to solve this problem
-  N = [4,7,12,4,8,5,9,13,6,3,8,4,12,6]
-  d = 4
-  print(findPath(N, d))
-
-  
